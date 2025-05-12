@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: 3rem auto;
+}
+
+header {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+.hero-section {
+  /* margin-top: 40px; */
+  padding: 2rem;
+}
+
+ul{
+  margin: 0 auto;
+  max-width: 900px;
+  list-style: none;
+
+}
+
+li {
+  border-left: 3px solid red;
+  display: flex;
+  flex-direction: row; /* Stack content vertically */
+  justify-content: space-between;
+  padding: 2rem;
+  margin-bottom: 1.5rem; /* Add margin between list items */
+  background-color: #333; /* Optional for visual clarity */
+  border-radius: 8px; /* Optional for rounded edges */
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; /* This will add consistent spacing between h2 and p */
+ 
+}
+
+.content h2 {
+  margin-bottom: 1rem; /* This would override the gap visually */
+}
+
+
+h2{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: #ffffff;
+  color: #000;
+  padding: 1rem 2.5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:focus {
+  outline: none;
+}
+
